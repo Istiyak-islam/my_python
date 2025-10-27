@@ -26,7 +26,7 @@ python-dotenv==1.0.1
 # ==== Software Detection & Installation ====
 psutil==6.0.0                    # To check installed software and running processes
 requests==2.32.3                 # To download / interact with web installers
-pywin32==306                     # To access Windows registry and detect installed software (Windows only)
+                   # To access Windows registry and detect installed software (Windows only)
 
 # ==== JSON / Config Parsing ====
 jsonschema==4.23.0
@@ -58,3 +58,4 @@ Flask-Mail==0.10.0
 pytest==8.3.3
 black==24.10.0
 flake8==7.1.1
+
